@@ -60,7 +60,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
 					"patching_rect" : [ 15.75, 115.0, 176.0, 44.0 ],
-					"presentation_linecount" : 2,
 					"text" : "/pairs = length(/in) / 2,\n/size = /pairs"
 				}
 
@@ -168,7 +167,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.75, 755.0, 404.0, 22.0 ],
+					"patching_rect" : [ 15.75, 780.0, 404.0, 22.0 ],
 					"text" : "zl.group 1"
 				}
 
@@ -180,7 +179,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "FullPacket" ],
-					"patching_rect" : [ 15.75, 525.0, 75.0, 22.0 ],
+					"patching_rect" : [ 15.75, 550.0, 75.0, 22.0 ],
 					"text" : "o.route /step"
 				}
 
@@ -225,13 +224,13 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-39",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "o.expr.codebox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
-					"patching_rect" : [ 15.75, 455.0, 255.0, 57.0 ],
-					"text" : "/note = /note % /notes_per_octave,\n/base = /octave * /notes_per_octave,\n/step = /base + /note"
+					"patching_rect" : [ 15.75, 458.0, 362.0, 74.0 ],
+					"text" : "/octave = /octave + floor(/note / /notes_per_octave),\n/note = /note % /notes_per_octave,\n/base = /octave * /notes_per_octave,\n/step = /base + /note"
 				}
 
 			}
@@ -329,7 +328,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.75, 789.0, 30.0, 30.0 ]
+					"patching_rect" : [ 15.75, 814.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -393,7 +392,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 301.75, 521.0, 30.0, 30.0 ]
+					"patching_rect" : [ 301.75, 546.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -409,7 +408,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 165.75, 521.0, 30.0, 30.0 ]
+					"patching_rect" : [ 165.75, 546.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -437,7 +436,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 165.75, 580.0, 50.0, 22.0 ]
+					"patching_rect" : [ 165.75, 605.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -450,7 +449,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 301.75, 580.0, 50.0, 22.0 ]
+					"patching_rect" : [ 301.75, 605.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -463,7 +462,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.75, 718.0, 64.0, 22.0 ]
+					"patching_rect" : [ 15.75, 743.0, 64.0, 22.0 ]
 				}
 
 			}
@@ -474,7 +473,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.75, 647.0, 169.0, 22.0 ],
+					"patching_rect" : [ 15.75, 672.0, 169.0, 22.0 ],
 					"text" : "expr pow($f2\\, $f1)"
 				}
 
@@ -487,7 +486,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.75, 580.0, 50.0, 22.0 ],
+					"patching_rect" : [ 15.75, 605.0, 50.0, 22.0 ],
 					"varname" : "number"
 				}
 
@@ -499,7 +498,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 15.75, 684.0, 305.0, 22.0 ],
+					"patching_rect" : [ 15.75, 709.0, 305.0, 22.0 ],
 					"text" : "* 440."
 				}
 
@@ -511,7 +510,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 165.75, 612.0, 119.0, 22.0 ],
+					"patching_rect" : [ 165.75, 637.0, 119.0, 22.0 ],
 					"text" : "expr pow(2\\, 1. / $f1 )"
 				}
 
@@ -667,7 +666,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 881.75, 569.0, 311.25, 569.0 ],
+					"midpoints" : [ 881.75, 587.0, 311.25, 587.0 ],
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -689,7 +688,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 728.0, 569.0, 175.25, 569.0 ],
+					"midpoints" : [ 728.0, 587.0, 175.25, 587.0 ],
 					"source" : [ "obj-49", 1 ]
 				}
 
@@ -719,7 +718,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 684.25, 569.0, 25.25, 569.0 ],
+					"midpoints" : [ 684.25, 587.0, 25.25, 587.0 ],
 					"source" : [ "obj-6", 1 ]
 				}
 
@@ -831,19 +830,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "arg.bypass.maxpat",
 				"bootpath" : "~/workspace/projects/infinituner/patchers/utils",
