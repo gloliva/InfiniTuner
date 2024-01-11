@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 688.0, 848.0 ],
+		"rect" : [ 790.0, 100.0, 688.0, 848.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -176,8 +176,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
-					"patching_rect" : [ 93.25, 218.0, 140.0, 134.0 ],
-					"text" : "/ji/ratiolist = [\n  \t1.,\n  9. / 8.,\n  5. / 4.,\n  4. / 3.,\t\n\t\t  3. / 2.,\n  5. / 3.,\n  15. / 8.\n]"
+					"patching_rect" : [ 93.25, 218.0, 134.0, 134.0 ],
+					"text" : "/ji/ratiolist = [\n  \t1.,\n  9. / 8.,\n  6. / 5.,\n  4. / 3.,\t\n\t\t  3. / 2.,\n  8. / 5.,\n  9. / 5.\n]"
 				}
 
 			}

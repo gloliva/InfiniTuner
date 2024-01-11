@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 416.0, 376.0, 111.0, 22.0 ],
+					"patching_rect" : [ 415.0, 387.0, 111.0, 22.0 ],
 					"text" : "o.union"
 				}
 
@@ -57,7 +57,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "FullPacket" ],
-					"patching_rect" : [ 416.0, 342.0, 203.0, 22.0 ],
+					"patching_rect" : [ 415.0, 353.0, 203.0, 22.0 ],
 					"text" : "o.select /ji/freqlist /notes_per_octave"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 12.0, 637.0, 396.333333333333314, 22.0 ],
+					"patching_rect" : [ 11.0, 648.0, 396.333333333333314, 22.0 ],
 					"text" : "zl.group 1"
 				}
 
@@ -83,7 +83,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
-					"patching_rect" : [ 12.0, 111.0, 176.0, 44.0 ],
+					"patching_rect" : [ 11.0, 111.0, 176.0, 44.0 ],
 					"text" : "/pairs = length(/in) / 2,\n/size = /pairs"
 				}
 
@@ -95,7 +95,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 12.0, 79.0, 60.0, 22.0 ],
+					"patching_rect" : [ 11.0, 79.0, 60.0, 22.0 ],
 					"text" : "o.pack /in"
 				}
 
@@ -107,7 +107,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 12.0, 342.0, 116.0, 22.0 ],
+					"patching_rect" : [ 11.0, 353.0, 116.0, 22.0 ],
 					"text" : "zl.nth 1"
 				}
 
@@ -119,7 +119,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 12.0, 376.0, 116.0, 22.0 ],
+					"patching_rect" : [ 11.0, 387.0, 116.0, 22.0 ],
 					"text" : "o.pack /note /octave"
 				}
 
@@ -131,7 +131,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "FullPacket" ],
-					"patching_rect" : [ 12.0, 166.0, 585.0, 22.0 ],
+					"patching_rect" : [ 11.0, 166.0, 585.0, 22.0 ],
 					"text" : "o.route /pairs /in /size"
 				}
 
@@ -143,7 +143,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "FullPacket" ],
-					"patching_rect" : [ 12.0, 270.0, 67.0, 22.0 ],
+					"patching_rect" : [ 11.0, 281.0, 67.0, 22.0 ],
 					"text" : "o.route /lst"
 				}
 
@@ -155,7 +155,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 12.0, 238.0, 207.666666666666657, 22.0 ],
+					"patching_rect" : [ 11.0, 249.0, 207.666666666666657, 22.0 ],
 					"text" : "o.var"
 				}
 
@@ -167,7 +167,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 12.0, 303.0, 67.0, 22.0 ],
+					"patching_rect" : [ 11.0, 314.0, 67.0, 22.0 ],
 					"text" : "zl.slice 2"
 				}
 
@@ -179,7 +179,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 200.666666666666657, 204.0, 63.0, 22.0 ],
+					"patching_rect" : [ 199.666666666666657, 215.0, 63.0, 22.0 ],
 					"text" : "o.pack /lst"
 				}
 
@@ -191,7 +191,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "int" ],
-					"patching_rect" : [ 12.0, 204.0, 42.0, 22.0 ],
+					"patching_rect" : [ 11.0, 215.0, 42.0, 22.0 ],
 					"text" : "uzi"
 				}
 
@@ -203,7 +203,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 12.0, 48.0, 69.0, 22.0 ],
+					"patching_rect" : [ 11.0, 48.0, 69.0, 22.0 ],
 					"text" : "route notes"
 				}
 
@@ -218,7 +218,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 671.0, 30.0, 30.0 ]
+					"patching_rect" : [ 11.0, 682.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -234,7 +234,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 416.0, 200.0, 30.0, 30.0 ]
+					"patching_rect" : [ 415.0, 195.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -249,7 +249,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.25, 8.0, 30.0, 30.0 ]
+					"patching_rect" : [ 11.25, 8.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -260,7 +260,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "FullPacket" ],
-					"patching_rect" : [ 12.0, 604.0, 106.0, 22.0 ],
+					"patching_rect" : [ 11.0, 615.0, 106.0, 22.0 ],
 					"text" : "o.route /hz/degree"
 				}
 
@@ -274,7 +274,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
-					"patching_rect" : [ 12.0, 441.0, 368.0, 157.0 ],
+					"patching_rect" : [ 11.0, 452.0, 368.0, 157.0 ],
 					"text" : "/octave = /octave + floor(/note / /notes_per_octave),\n/degree = /note % /notes_per_octave,\n/hz/degree = /ji/freqlist[[ /degree ]],\n\n/mult = pow(2, /octave),\n/hz/degree *= /mult,\n\nif (/octave < -1 && /degree == 0,\n  /hz/degree *= 2\n)"
 				}
 
@@ -286,7 +286,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 12.0, 411.0, 368.0, 22.0 ],
+					"patching_rect" : [ 11.0, 422.0, 368.0, 22.0 ],
 					"text" : "o.union"
 				}
 
@@ -295,13 +295,13 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-66",
-					"linecount" : 6,
+					"linecount" : 7,
 					"maxclass" : "o.expr.codebox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
-					"patching_rect" : [ 416.0, 238.0, 214.0, 95.0 ],
-					"text" : "/ji/freqlist = [\n  map(\n\t    lambda([i], i * /hz/base),\n    /ji/ratiolist\n  )\n]"
+					"patching_rect" : [ 415.0, 233.0, 290.0, 108.0 ],
+					"text" : "/notes_per_octave = length(/ji/ratiolist),\n/ji/freqlist = [\n  map(\n\t    lambda([i], i * /hz/base),\n    /ji/ratiolist\n  )\n]"
 				}
 
 			}
@@ -337,7 +337,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-83", 1 ],
-					"midpoints" : [ 425.5, 404.0, 370.5, 404.0 ],
+					"midpoints" : [ 424.5, 415.0, 369.5, 415.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -408,7 +408,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-68", 0 ],
-					"midpoints" : [ 69.5, 335.0, 272.5, 335.0, 272.5, 195.0, 210.166666666666657, 195.0 ],
+					"midpoints" : [ 68.5, 346.0, 271.5, 346.0, 271.5, 206.0, 209.166666666666657, 206.0 ],
 					"source" : [ "obj-69", 1 ]
 				}
 
